@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&family=Monoton&family=Nanum+Pen+Script&family=Noto+Color+Emoji&family=Noto+Sans+JP:wght@100..900&family=Noto+Sans+Symbols+2&family=Noto+Serif+JP&family=Oswald:wght@200..700&family=Protest+Revolution&family=Rubik+Bubbles&display=swap');
+:root{
+    --powder-blue: #a7bed3;
+    --light-blue: #C6E2E9;
+    --cream: #F1FFC4;
+    --tan:#DAB894 ;
+    --apricot: #FFCAAF;
+    --buff:#E6BA8F
+}
+*{
+    margin:0;
+    padding:0;
+    font-family: Noto Color Emoji;
+}
+
+
+.nav{
+    width:100%;
+    height:8vh;
+    background-color:var(--powder-blue) ;
+    display: flex;
+    align-items: center;
+}
+
+.title{
+    font: size 4vmin;
+    color: var(--apricot);
+}
+
+.logo{
+    width: 5vmin;
+    height:5vmin;
+    border-radius: 100%;
+    border: soild black 1px;
+    margin:1vmin;
+}
+
+.container{
+    width:100%;
+    min-height: 92vh;
+    height: fit-content;
+    background: linear-gradient(to bottom right, var(--charcol), var(--buff), var(--tan), var(--apricot) );
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    flex-direction: column;
+}
+
+.story-container{
+    width:80vmin;
+    height:fit-content;
+    background-color: whitesmoke;
+    margin-top: 10vmin;
+    border-radius: 1vmin;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.story-input{
+    width:90%;
+    height:5vmin;
+    font-size:2vmin;
+}
+
+.story-prompt{
+    font-size: 4vmin;
+    margin-top: 5vmin;
+}
+
+.submit{
+    font-size: 3vmin;
+    margin-top: 10vmin;
+    width: 30vmin;
+    height: 5vmin;
+    border-radius: 0.5vmin;
+    background-color: whitesmoke;
+    margin-bottom: 10vmin;
+}
+
+
+.response-container{
+    width:80vmin;
+    height: fit-content;
+    background-color: whitesmoke;
+    margin-top: 10vmin;
+    border-radius: 1vmin;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    min-height: 20vmin;
+}
+
+.story-text{
+    padding: 2vmin;
+    font-size: 3vmin;
+}
+
+.continue{
+    font-size: 2vmin;
+    margin-top: 2vmin;
+    width: 25vmin;
+    height: 5vmin;
+    border-radius: 0.5vmin;
+    background-color: whitesmoke;
+    margin-bottom: 2vmin;
+}
